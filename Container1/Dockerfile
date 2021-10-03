@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
       
-MAINTAINER Azizul Hakim Shakil <Azizul_Hakim.Shakil@mailbox.tu-dresden.de>
+LABEL author="Azizul Hakim Shakil (azizulhakim.shakil18@gmail.com)"
 
 RUN apt-get update
 RUN apt-get upgrade -y
